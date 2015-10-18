@@ -18,6 +18,8 @@ public abstract class PieceModel {
         setUsing(false);
     }
 
+    public abstract List<PositionWithPiece> getAllCandidate(DeskModel deskModel);
+    public abstract List<PositionWithPiece> getAttackedPositions(DeskModel deskModel);
     protected void checkForOccurrenceShah(DeskModel deskModel, List<PositionWithPiece> allCandidate){
         List<PositionWithPiece> allPosition = deskModel.getAllPosition();
         List<PositionWithPiece> allCandidateCopy = new ArrayList<>(allCandidate);
@@ -44,8 +46,7 @@ public abstract class PieceModel {
     public CheckerboardPosition getPiecePosition() {
         return piecePosition;
     }
-    public abstract List<PositionWithPiece> getAllCandidate(DeskModel deskModel);
-    public abstract List<PositionWithPiece> getAttackedPositions(DeskModel deskModel);
+
     public void setPiecePosition(CheckerboardPosition piecePosition) {
         this.piecePosition = piecePosition;
     }

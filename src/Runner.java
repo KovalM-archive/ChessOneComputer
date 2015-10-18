@@ -1,9 +1,8 @@
 import chessview.ChessView;
 
-import javax.swing.*;
-import java.awt.BorderLayout;
+import javax.swing.SwingUtilities;
 
-public class Runner{
+public class Runner {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             @Override

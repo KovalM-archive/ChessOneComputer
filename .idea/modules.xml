@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NetworkChess.iml" filepath="$PROJECT_DIR$/NetworkChess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChessOneComputer.iml" filepath="$PROJECT_DIR$/ChessOneComputer.iml" />
     </modules>
   </component>
 </project>
